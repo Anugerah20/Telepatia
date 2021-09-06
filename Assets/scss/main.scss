@@ -7,6 +7,13 @@
         font-family:'Rubik', sans-serif;
     }
 
+// Responsive
+    @media screen and(max-width: 576px) {    
+        .container{
+            overflow: hidden;
+    }
+}
+
    .p-top {
         padding-top: 30px;
     .navbar-nav {
