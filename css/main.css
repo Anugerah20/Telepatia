@@ -1,0 +1,168 @@
+.btn-utama, .buttons .btn-primary, .buttons .btn-secondary {
+  padding: 15px 26px;
+  border: 0;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.p-top {
+  padding-top: 30px;
+}
+
+.p-top .navbar-nav li {
+  padding-left: 50px;
+}
+
+.p-top .active {
+  color: #563AD6 !important;
+  font-weight: 500 !important;
+}
+
+.p-top .nav-link {
+  color: #02044A;
+  font-weight: 400;
+}
+
+.header {
+  margin-top: 100px;
+  font-size: 46px;
+  line-height: 60px;
+  color: #02044A;
+  font-weight: 600;
+}
+
+.deskription {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #9B9CB7;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.pricing {
+  background: #EAEAF4;
+  margin-top: 70px;
+  padding: 70px 0 0 70px;
+}
+
+.pricing .master-card, .pricing .basic-card, .pricing .most-card {
+  padding: 30px;
+  border-radius: 22px;
+}
+
+.pricing .master-card .btn, .pricing .basic-card .btn, .pricing .most-card .btn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.pricing .master-card .item-benefit, .pricing .basic-card .item-benefit, .pricing .most-card .item-benefit {
+  margin-bottom: 20px;
+}
+
+.pricing .master-card .item-benefit img, .pricing .basic-card .item-benefit img, .pricing .most-card .item-benefit img {
+  float: left;
+  margin-right: 8px;
+}
+
+.pricing .master-card .item-benefit p, .pricing .basic-card .item-benefit p, .pricing .most-card .item-benefit p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: -3px;
+}
+
+.pricing .master-card .type, .pricing .basic-card .type, .pricing .most-card .type {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.pricing .master-card .type .fee, .pricing .basic-card .type .fee, .pricing .most-card .type .fee {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.pricing .master-card .type .fee .rekomended, .pricing .basic-card .type .fee .rekomended, .pricing .most-card .type .fee .rekomended {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.pricing .basic-card {
+  background: #fff !important;
+  margin-bottom: 30px;
+}
+
+.pricing .basic-card .type {
+  color: #02044A;
+}
+
+.pricing .basic-card .fee {
+  color: #02044A;
+}
+
+.pricing .basic-card .rekomended {
+  color: #9B9CB7;
+}
+
+.pricing .basic-card .item-benefit p {
+  color: #02044A;
+}
+
+.pricing .most-card {
+  background: #02044A;
+  margin-bottom: 30px;
+}
+
+.pricing .most-card .btn-primary {
+  background: #149df8 !important;
+}
+
+.pricing .most-card .type {
+  color: #fff;
+}
+
+.pricing .most-card .fee {
+  color: #fff;
+}
+
+.pricing .most-card .rekomended {
+  color: #777790;
+}
+
+.pricing .most-card .item-benefit p {
+  color: #fff;
+}
+
+.buttons .btn-primary {
+  color: #fff;
+  background: #563AD6;
+}
+
+.buttons .btn-secondary {
+  color: #777790;
+  background: #EAEAF4;
+}
+
+.sales {
+  margin-top: 100px;
+}
+
+.sales .branded {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.sales .branded .brand-tele {
+  width: 724px;
+}
+
+.sales .copywriting {
+  padding-left: 140px;
+}
+/*# sourceMappingURL=main.css.map */

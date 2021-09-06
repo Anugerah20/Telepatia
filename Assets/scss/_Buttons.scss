@@ -1,0 +1,8 @@
+@import 'Typography';
+// Include Button
+.btn-utama{
+    padding: 15px 26px;
+    border: 0;
+    font-weight: map-get($font-weight, bold);
+    border-radius: 8px;
+}

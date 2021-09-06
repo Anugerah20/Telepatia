@@ -1,0 +1,153 @@
+@import 'colors';
+@import 'Typography';
+@import 'Buttons';
+
+// My Style css
+    body {
+        font-family:'Rubik', sans-serif;
+    }
+
+   .p-top {
+        padding-top: 30px;
+    .navbar-nav {
+    li {
+        padding-left: 50px;
+        }
+    }
+    .active {
+        color: $Purple !important;
+        font-weight: map-get($font-weight, medium) !important;
+        }
+    .nav-link {
+        color: $Navy;
+        font-weight: map-get($font-weight, regular);
+        }
+    }
+
+    .header {
+        margin-top: 100px;
+        font-size: 46px;
+        line-height: 60px;
+        color: $Navy;
+        font-weight: map-get($font-weight, bold);
+    }
+    .deskription {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        color: $Newpur;
+        font-weight: map-get($font-weight, regular);
+        line-height: 30px;
+    }
+
+    .pricing {
+        background: $Sofpur;
+        margin-top: 70px;
+        padding: 70px 0 0 70px;
+        .master-card {
+            padding: 30px;
+            border-radius: 22px;
+            .btn{
+                width: 100%;
+                margin-top: 20px;
+            }
+            .item-benefit {
+                margin-bottom: 20px;
+                img {
+                    float: left;
+                    margin-right: 8px;
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: map-get($font-weight, medium);
+                    margin-top: -3px;
+                }
+            }
+            .type {
+                font-size: 18px;
+                font-weight: map-get($font-weight, medium);
+            .fee {
+                font-size: 36px;
+                font-weight: map-get($font-weight, bold);
+                margin-top: 16px;
+                margin-bottom: 16px;
+            .rekomended {
+                font-size: 16px;
+                margin-bottom: 20px;
+                font-weight: map-get($font-weight, regular);
+            }
+        }
+    }
+}
+
+        .basic-card{
+            @extend .master-card;
+                background: $White !important;
+                margin-bottom: 30px;
+            .type {
+                color: $Navy;
+            }
+            .fee {
+                color: $Navy;
+            }
+            .rekomended {
+                color: $Newpur;
+            }
+            .item-benefit {
+                p {
+                    color: $Navy;
+                }
+            }
+        }
+
+        .most-card{
+            @extend .master-card;
+                background: $Navy;
+                margin-bottom: 30px;
+                .btn-primary{
+                    background: $Darken !important;
+                }
+            .type {
+                color: $White;
+            }
+            .fee {
+                color: $White;
+            }
+            .rekomended {
+                color: $Darpur;
+            }
+            .item-benefit {
+                p {
+                    color: $White;
+                }
+            }
+        }
+    }
+
+    .buttons{
+        .btn-primary {
+            @extend .btn-utama;
+            color: $White;
+            background: $Purple;
+        }
+        .btn-secondary {
+            @extend .btn-utama;
+            color: $Darpur;
+            background: $Sofpur;
+        }
+    }
+
+    .sales {
+        margin-top: 100px;
+        .branded {
+            margin-top: 70px;
+            text-align: center ;
+            .brand-tele {
+                width: 724px;
+            }
+        }
+        .copywriting {
+            padding-left: 140px;
+        }
+    }
+    
