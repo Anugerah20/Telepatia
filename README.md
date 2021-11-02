@@ -1,4 +1,4 @@
 # Telepatia
 Design website by BuildWithAngga.
 
-- Terima kasih mas Angga.
+- Terima kasih mas Angga Risky.
